@@ -1,0 +1,16 @@
+{
+  "theme": {
+    "extend": {
+      "colors": {
+        "nexo-bg": "#FFFFFF",
+        "nexo-fg": "#0F172A",
+        "charge-primary": "#3B82F6",
+        "charge-accent": "#22C55E",
+        "hub-bg": "#0B0F17",
+        "hub-surface": "#111827",
+        "hub-primary": "#06B6D4"
+      },
+      "borderRadius": { "xl": "1rem", "2xl": "1.25rem" }
+    }
+  }
+}

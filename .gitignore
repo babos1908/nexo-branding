@@ -1,0 +1,7 @@
+# exports/cache
+.DS_Store
+Thumbs.db
+*.log
+exports/png/*.zip
+exports/pdf/*.zip
+brand-book/*.tmp
