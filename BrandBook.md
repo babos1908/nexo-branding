@@ -31,13 +31,16 @@
 * **Charge:** `#22C55E` (green), `#3B82F6` (blue accent).
 * **Hub:** `#06B6D4` (cyan), `#0B0F17` (dark background).
 
+See `palette/tokens.json` for structured color values and `palette/tailwind.theme.json` for Tailwind CSS integration.
+
 ---
 
 ## 4. Typography
 
-* **Primary:** Inter Bold (for logo + headings).
+* **Primary:** Poppins SemiBold (logo wordmarks + headings).
 * **Secondary:** Poppins Regular (body text, UI).
 * **Fallback:** system-ui, sans-serif.
+* **Font files:** `fonts/Poppins/` (OFL licensed, 18 variants).
 
 ---
 
