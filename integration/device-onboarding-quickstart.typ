@@ -46,16 +46,22 @@ the device receives credentials and begins publishing.
 
 == Handshake at a glance
 
+// Sequence semantics: the broker is the MQTT transport, not the logical
+// peer. Arrows show the *logical* source → destination of each message
+// and cross the Broker lane visually. Exception: ⑤ "reconnect" stops at
+// the Broker lane because it's an MQTT CONNECT (the broker is the
+// actual peer for the auth handshake — the Hub only sees it indirectly
+// via the auth-plugin webhook).
 #nexo-sequence(
   lanes: ("Device", "Broker", "Hub", "Admin"),
   messages: (
-    (from: 0, to: 1, label: [① `provisioning/request`], kind: "primary"),
-    (from: 2, to: 1, label: [② `response = pending`], kind: "return"),
+    (from: 0, to: 2, label: [① `provisioning/request`], kind: "primary"),
+    (from: 2, to: 0, label: [② `response = pending`], kind: "return"),
     (from: 3, to: 3, label: [③ Accept in UI]),
-    (from: 2, to: 1, label: [④ `response = accepted` + credentials], kind: "return"),
+    (from: 2, to: 0, label: [④ `response = accepted` + credentials], kind: "return"),
     (from: 0, to: 1, label: [⑤ reconnect (mqttUser/mqttPass)], kind: "primary"),
-    (from: 0, to: 1, label: [⑥ `devices/<id>/register` — tag schema], kind: "primary"),
-    (from: 0, to: 1, label: [⑦ `devices/<id>/telemetry` — cyclic], kind: "primary"),
+    (from: 0, to: 2, label: [⑥ `devices/<id>/register` — tag schema], kind: "primary"),
+    (from: 0, to: 2, label: [⑦ `devices/<id>/telemetry` — cyclic], kind: "primary"),
   ),
 )
 

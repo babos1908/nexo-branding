@@ -309,10 +309,20 @@
               dx: lo-x, dy: y,
               line(length: len, angle: 0deg, stroke: stroke-style),
             )
-            // Arrowhead (small triangle at the destination side).
+            // Arrowhead — pointing at the DESTINATION end of the arrow.
+            // Bug fix 2026-05-05: previously for left-going arrows the
+            // head was placed at `from-x - 1.5mm` (near the source) —
+            // visually backwards. Now both directions anchor the head
+            // at the destination side.
+            //
+            //   right-going (to-x > from-x):  head at to-x − 1.5mm,
+            //                                 triangle points RIGHT
+            //   left-going  (to-x < from-x):  head at to-x,
+            //                                 triangle points LEFT
+            //
             // Typst's `polygon(..vertices)` takes each vertex as a
-            // separate positional 2-tuple — spread an array variable
-            // so we don't accidentally pass a single nested tuple.
+            // separate positional 2-tuple — spread an array so we don't
+            // accidentally pass a single nested tuple.
             let head-pts = if to-x > from-x {
               ((0mm, 0mm), (1.5mm, 1mm), (0mm, 2mm))
             } else {
@@ -320,7 +330,7 @@
             }
             place(
               top + left,
-              dx: if to-x > from-x { to-x - 1.5mm } else { from-x - 1.5mm },
+              dx: if to-x > from-x { to-x - 1.5mm } else { to-x },
               dy: y - 1mm,
               polygon(
                 fill: stroke-color,
