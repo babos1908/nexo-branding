@@ -1,0 +1,3 @@
+# Compiled PDF artifacts — the .typ source is the truth, the binary is
+# rebuilt deterministically from `node scripts/build-branding-pdf.mjs`.
+dist/
