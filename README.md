@@ -47,6 +47,22 @@ For surface elevations, hover and pressed states, build everything off these tok
 | `edge-900` | `#7C2D12` | Surface tint, selected-row background |
 | accent | `#FBBF24` | Non-status highlights only — never for alarm semantics |
 
+### Edge tray icon (Tauri 2)
+
+The Edge desktop app runs a Tauri 2 system-tray icon whose color reflects operational state. The full set lives under `logo/edge/tray/`:
+
+| File | Use | Fill |
+|---|---|---|
+| `tray-icon.{svg,png,ico}` | Default / idle when no state is asserted yet | `#C2410C` (Edge brand auburn) |
+| `tray-icon-running.{svg,png,ico}` | Healthy: tag-engine scanning, no active alarms | `#22C55E` (green) |
+| `tray-icon-warning.{svg,png,ico}` | Minor / warning alarms present | `#FCD34D` (yellow, matches SCADA warning) |
+| `tray-icon-down.{svg,png,ico}` | Application stopped, critical alarm, or device disconnected | `#EF4444` (red) |
+| `tray-icon-template.{svg,png,ico}` | **macOS only** — solid black with alpha; NSStatusBar auto-inverts in dark mode. Never use on Windows/Linux. | `#000000` |
+
+Raster sizes per state: PNG at 16 / 32 / 64 / 128 px (square), ICO multi-resolution (16-256 px) for Windows. The state SVGs share the NEXO "X" geometry centered in a 64×64 canvas with 6 px padding — readable down to 16 px.
+
+The Edge runtime decides which file to load via `app.tray_handle().set_icon(...)` based on a state machine fed by the alarm and engine status streams; the brand layer just guarantees the asset family.
+
 ### Usage rules
 
 - Use the official files from this folder. SVG preferred; PNG where raster is required.
