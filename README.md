@@ -13,7 +13,7 @@ Official branding assets and guidelines. This folder is a git submodule pointing
 
 ## Logo
 
-Four variants live under `logo/`, each in SVG (preferred), PNG (256 / 512 / 1024 px), ICO (favicons), and PDF.
+Four variants live under `logo/`, each in SVG (preferred), PNG (256 / 512 px), ICO (favicons), and PDF.
 
 | Variant | Light background | Dark background |
 |---|---|---|
