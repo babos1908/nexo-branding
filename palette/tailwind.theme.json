@@ -8,7 +8,16 @@
         "charge-accent": "#22C55E",
         "hub-bg": "#0B0F17",
         "hub-surface": "#111827",
-        "hub-primary": "#06B6D4"
+        "hub-primary": "#06B6D4",
+        "edge-bg": "#0B0F17",
+        "edge-surface": "#111827",
+        "edge-elevated": "#1F2937",
+        "edge-primary": "#C2410C",
+        "edge-primary-hover": "#EA580C",
+        "edge-primary-active": "#9A3412",
+        "edge-primary-text": "#FB923C",
+        "edge-surface-tint": "#7C2D12",
+        "edge-accent": "#FBBF24"
       },
       "borderRadius": { "xl": "1rem", "2xl": "1.25rem" }
     }

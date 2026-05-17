@@ -1,0 +1,39 @@
+{
+  "product": "edge",
+  "tagline": "Real-time, on your floor.",
+  "description": "NEXO Edge — on-premise SCADA. Warm Auburn palette signals plant-floor / hardware, distinct from Hub (cyan, cloud) and Charge (green/blue, EV consumer).",
+  "primary": {
+    "300": "#FB923C",
+    "500": "#EA580C",
+    "700": "#C2410C",
+    "800": "#9A3412",
+    "900": "#7C2D12"
+  },
+  "accent": "#FBBF24",
+  "surface": {
+    "bg": "#0B0F17",
+    "surface": "#111827",
+    "elevated": "#1F2937"
+  },
+  "text": {
+    "primary": "#F3F4F6",
+    "secondary": "#9CA3AF",
+    "onPrimary": "#0B0F17",
+    "accentText": "#FB923C"
+  },
+  "alarm": {
+    "_readonly": true,
+    "_note": "Hardcoded SCADA severity colors — frozen across the product. Never reuse for brand or status redefinition.",
+    "info": "#67E8F9",
+    "warning": "#FCD34D",
+    "major": "#F59E0B",
+    "critical": "#FCA5A5"
+  },
+  "contrast": {
+    "_note": "Measured WCAG contrast on bg #0B0F17. Use primary-700 for fills/UI components only; for text/icons use primary-300 which clears AAA.",
+    "primary_700_on_bg": "3.70:1 (fills / UI components / large text only)",
+    "primary_500_on_bg": "5.39:1 (AA Large)",
+    "primary_300_on_bg": "8.47:1 (AAA, text-safe)",
+    "accent_on_bg": "11.49:1 (AAA)"
+  }
+}
