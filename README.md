@@ -78,6 +78,10 @@ The Edge runtime decides which file to load via `app.tray_handle().set_icon(...)
 - **Fallback:** `system-ui, sans-serif`
 - **Font files:** `fonts/Poppins/` (OFL licensed, 18 variants)
 
+**Optional brand-customizer fonts.** Products that let customers re-theme the UI ship additional self-hosted families under `fonts/<Family>/`, served at `/branding/fonts/<Family>/*.ttf`:
+
+- **Roboto** — `fonts/Roboto/` (Apache-2.0, 3 static weights: Regular 400 / Medium 500 / Bold 700). Selectable in the NEXO Edge brand customizer. Apache-2.0 is redistributable and air-gap-safe; full text in `fonts/Roboto/LICENSE.txt`.
+
 ## Iconography
 
 Line-based, geometric, minimal. No gradients, no shadows. Consistent stroke weight.
