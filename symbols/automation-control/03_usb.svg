@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_3" data-name="Layer 3" viewBox="0 0 48 48" fill="currentColor">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke-linejoin: bevel;
+      }
+    </style>
+  </defs>
+  <line class="cls-1" x1="10.68" y1="24" x2="40" y2="24" />
+  <polygon class="cls-2" points="45 24 40 21 40 27 45 24" />
+  <circle class="cls-2" cx="7" cy="24" r="4" />
+  <polyline class="cls-2" points="25 17 20 17 15 24" />
+  <polyline class="cls-2" points="31 31 26 31 21 24" />
+  <rect class="cls-2" x="30" y="29" width="4" height="4" />
+  <circle class="cls-2" cx="26" cy="17" r="2" />
+</svg>

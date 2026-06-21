@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 48 48" fill="currentColor">
+  
+  <g>
+    <g id="pictogram">
+      <g>
+        <rect x="16" y="14" width="9" height="2" />
+        <rect x="16" y="26" width="9" height="2" />
+        <rect x="16" y="18" width="9" height="2" />
+        <path d="M39,34v-2h-2v2h-20v-2h-2v2h-2l-1,1v4l1,1h28l1-1v-4l-1-1h-2ZM14,36h26v2H14v-2Z" />
+        <rect x="16" y="22" width="9" height="2" />
+        <path d="M45,16h-3v-7l-1-1H13l-1,1v7h-3l-1,1v2H3l-1,1v4l1,1h5v2l1,1h3v3l1,1h28l1-1v-3h3l1-1v-10l-1-1ZM44,18v8h-2v-8h2ZM4,21h4v2h-4v-2ZM10,24h0v-4h0v-2h2v8h-2v-2ZM14,27h0v-10h0v-7h26v20H14v-3Z" />
+        <path d="M37,16h-9l-1,1v10l1,1h9l1-1v-10l-1-1ZM29,18h7v8h-7v-8Z" />
+      </g>
+    </g>
+  </g>
+</svg>

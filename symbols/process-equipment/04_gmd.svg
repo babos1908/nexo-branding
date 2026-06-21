@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve" fill="currentColor">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:bevel;stroke-miterlimit:10;}
+	.st1{display:none;}
+	.st2{display:inline;}
+	.st3{fill:none;stroke:#00AEEF;stroke-width:5.000000e-02;stroke-miterlimit:10;}
+</style>
+<g id="pictogram">
+	<line class="st0" x1="18" y1="20" x2="20" y2="20" />
+	<line class="st0" x1="15" y1="24" x2="17" y2="24" />
+	<line class="st0" x1="17" y1="28" x2="19" y2="28" />
+	<g>
+		<polygon points="12,27 12,26 3,26 2,27 2,36 3,37 45,37 46,36 46,27 45,26 36,26 35.1,26.6 33.3,31 14.7,31 12.9,26.6 12,26     12,27 11.1,27.4 13.1,32.4 14,33 34,33 34.9,32.4 36.7,28 44,28 44,35 4,35 4,28 12,28 12,27 11.1,27.4   " />
+		<polygon points="8,27.3 11.8,14.8 24,11 36.2,14.8 40,27.3 42,26.7 38,13.7 37.3,13 24.3,9 23.7,9 10.7,13 10,13.7 6,26.7 8,27.3       " />
+		<polyline points="23,19 25,19 25,17 23,17   " />
+		<polyline points="28,21 30,21 30,19 28,19   " />
+		<polyline points="31,25 33,25 33,23 31,23   " />
+		<path d="M14.9,31.7l-2-5.5L12,26.5h1c0-3,1.2-5.8,3.2-7.8c2-2,4.7-3.2,7.8-3.2c3,0,5.8,1.2,7.8,3.2c2,2,3.2,4.7,3.2,7.8h1    l-0.9-0.3l-2,5.5l1.9,0.7l2-5.5l0.1-0.3c0-7.2-5.8-13-13-13c-7.2,0-13,5.8-13,13l0.1,0.3l2,5.5L14.9,31.7L14.9,31.7z" />
+		<path d="M21,25h1c0-1.1,0.9-2,2-2c1.1,0,2,0.9,2,2c0,1.1-0.9,2-2,2c-1.1,0-2-0.9-2-2H21h-1c0,2.2,1.8,4,4,4c2.2,0,4-1.8,4-4    c0-2.2-1.8-4-4-4c-2.2,0-4,1.8-4,4H21z" />
+		<polyline points="29,29 31,29 31,27 29,27   " />
+	</g>
+</g>
+
+</g>
+</svg>

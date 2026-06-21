@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="pictogram" viewBox="0 0 48.05 48.05" fill="currentColor">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M45.02,46.03H3.02l-1-1V3.03l1-1h42l1,1v42l-1,1ZM4.02,44.03h40V4.03H4.02v40Z" />
+  <path class="cls-1" d="M38.02,39.03H10.02l-1-1V10.03l1-1h28l1,1v28l-1,1ZM11.02,37.03h26V11.03H11.02v26Z" />
+  <rect class="cls-1" x="23.02" y="10.03" width="2" height="28" />
+</svg>

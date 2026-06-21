@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 48 48" fill="currentColor">
+  
+  <g>
+    <g id="pictogram">
+      <g id="OptiFact_chart">
+        <rect x="2" y="21" width="2" height="25" />
+        <rect x="8" y="18" width="2" height="28" />
+        <rect x="14" y="24" width="2" height="22" />
+        <rect x="20" y="21" width="2" height="25" />
+        <rect x="26" y="18" width="2" height="28" />
+        <rect x="32" y="24" width="2" height="22" />
+        <rect x="38" y="10" width="2" height="36" />
+        <rect x="44" y="10" width="2" height="36" />
+      </g>
+    </g>
+  </g>
+</svg>

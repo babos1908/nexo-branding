@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="pictogram" viewBox="0 0 48 48" fill="currentColor">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #000;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M38,4v-2h-2.33v2H12v-2h-2v2h0l-1,1v40l1,1h28l1-1V5s-1-1-1-1ZM11,44v-28h26v28H11ZM37,10v4H11V6h23.5s2.5,0,2.5,0v4s1,0,1,0h-1Z" />
+  <path class="cls-1" d="M27.67,27.5l1,1h4.67l1-1v-4.67s-1-1-1-1h-4.67l-1,1v4.67ZM29.67,23.83h2.67v2.67h-2.67v-2.67Z" />
+  <rect class="cls-1" x="32.17" y="9" width="2.33" height="2" />
+  <rect class="cls-1" x="27.5" y="9" width="2.33" height="2" />
+  <rect class="cls-1" x="32.17" y="35.83" width="2.33" height="2" />
+  <rect class="cls-1" x="27.5" y="35.83" width="2.33" height="2" />
+  <rect class="cls-1" x="21" y="18" width="2.33" height="2" />
+  <rect class="cls-1" x="25.67" y="18" width="2.33" height="2" />
+  <rect class="cls-1" x="13.5" y="9" width="11.67" height="2" />
+  <rect class="cls-1" x="18.17" y="31.17" width="9.33" height="2" />
+</svg>

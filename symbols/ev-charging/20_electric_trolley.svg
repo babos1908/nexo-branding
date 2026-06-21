@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="pictogram" viewBox="0 0 48.05 48.05" fill="currentColor">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke-linejoin: bevel;
+      }
+    </style>
+  </defs>
+  <g>
+    <circle class="cls-2" cx="15.02" cy="37.02" r="6" />
+    <circle class="cls-2" cx="36.02" cy="37.02" r="6" />
+    <line class="cls-2" x1="21.02" y1="39.02" x2="31.02" y2="39.02" />
+    <polyline class="cls-2" points="40.02 33.02 40.02 26.02 45.02 26.02 45.02 14.02 16.03 14.02 13.02 14.02 3.02 14.02 3.02 18.02 9.02 18.02 13.02 21.02 9.02 25.02 5.02 25.02 5.02 37.02 7.02 39.02 10.02 39.02" />
+    <polygon class="cls-2" points="9.02 25.02 13.02 21.02 19.02 21.02 19.02 25.02 9.02 25.02" />
+    <circle class="cls-1" cx="15.03" cy="37.02" r="1" />
+    <circle class="cls-1" cx="36.03" cy="37.02" r="1" />
+  </g>
+  <polyline class="cls-2" points="28.02 13.03 28.02 10.03 19.02 10.02 19.02 14.02" />
+  <polyline class="cls-2" points="22.02 10.02 32.02 4.03 25.02 4.02" />
+</svg>

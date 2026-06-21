@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="pictogram" viewBox="0 0 48 48" fill="currentColor">
+  <circle cx="18" cy="19" r="1" />
+  <circle cx="30" cy="19" r="1" />
+  <circle cx="18" cy="29" r="1" />
+  <circle cx="30" cy="29" r="1" />
+  <path d="m11,15v18l1,1h24l1-1V15l-1-1H12l-1,1Zm2,1h22v16H13v-16Z" />
+  <circle cx="22" cy="7" r="1" />
+  <circle cx="26" cy="7" r="1" />
+  <circle cx="34" cy="7" r="1" />
+  <circle cx="38" cy="7" r="1" />
+  <circle cx="10" cy="7" r="1" />
+  <circle cx="14" cy="7" r="1" />
+  <circle cx="22" cy="41" r="1" />
+  <circle cx="26" cy="41" r="1" />
+  <circle cx="34" cy="41" r="1" />
+  <circle cx="38" cy="41" r="1" />
+  <circle cx="10" cy="41" r="1" />
+  <circle cx="14" cy="41" r="1" />
+  <path d="m45,10h-2V3l-1-1H6l-1,1v7h-2l-1,1v26l1,1h2v7l1,1h36l1-1v-7h2l1-1V11l-1-1Zm-4,0h-10v-6h10v6Zm-2,26H9V12h30v24Zm-10-26h-10v-6h10v6ZM7,4h10v6H7v-6Zm-3,8h3v24h-3V12Zm3,26h10v6H7v-6Zm12,0h10v6h-10v-6Zm22,6h-10v-6h10v6Zm3-8h-3V12h3v24Z" />
+</svg>

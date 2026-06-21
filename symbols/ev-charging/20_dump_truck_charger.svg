@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="pictogram" viewBox="0 0 48.05 48.05" fill="currentColor">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M11.02,46.02H3.02l-1-1v-12l1-1h8l1,1v12l-1,1ZM4.02,44.02h6v-10h-6v10Z" />
+  <path class="cls-1" d="M27.02,42.02H11.02l-1-1v-12l1-1h16l1,1v12l-1,1ZM12.02,40.02h14v-10h-14v10Z" />
+  <rect class="cls-1" x="6.02" y="21.02" width="2" height="8" />
+  <rect class="cls-1" x="14.02" y="32.02" width="10" height="2" />
+  <rect class="cls-1" x="14.02" y="36.02" width="10" height="2" />
+  <path class="cls-1" d="M35.02,46.02h-8l-1-1v-12l1-1h8l1,1v12l-1,1ZM28.02,44.02h6v-10h-6v10Z" />
+  <path class="cls-1" d="M45.02,46.02h-4l-1-1v-12l1-1h4l1,1v12l-1,1ZM42.02,44.02h2v-10h-2v10Z" />
+  <path class="cls-1" d="M45.02,34.02h-4l-1-1v-4l1-1h4l1,1v4l-1,1ZM42.02,32.02h2v-2h-2v2Z" />
+  <polygon class="cls-1" points="46.02 30.02 44.02 30.02 44.02 14.44 35.61 6.02 13.02 6.02 13.02 4.02 36.02 4.02 36.73 4.32 45.73 13.32 46.02 14.02 46.02 30.02" />
+  <rect class="cls-1" x="13.02" y="8.02" width="11" height="2" />
+  <path class="cls-1" d="M35.02,34.02h-8l-1-1v-4l1-1h8l1,1v4l-1,1ZM28.02,32.02h6v-2h-6v2Z" />
+  <polygon class="cls-1" points="32.02 29.02 30.02 29.02 30.02 22.02 24.02 22.02 24.02 29.02 22.02 29.02 22.02 21.02 23.02 20.02 31.02 20.02 32.02 21.02 32.02 29.02" />
+  <path class="cls-1" d="M11.02,34.02H3.02l-1-1v-4l1-1h8l1,1v4l-1,1ZM4.02,32.02h6v-2h-6v2Z" />
+  <path class="cls-1" d="M31.02,22.02H7.02l-.71-.29-4-4-.29-.71v-4l1-1h32l1,1v4l-.29.71-4,4-.71.29ZM7.44,20.02h23.17l3.41-3.41v-2.59H4.02v2.59l3.41,3.41Z" />
+  <rect class="cls-1" x="3.02" y="16.02" width="32" height="2" />
+  <path class="cls-1" d="M13.02,10.02c-1.65,0-3-1.35-3-3s1.35-3,3-3v2c-.55,0-1,.45-1,1s.45,1,1,1v2Z" />
+</svg>

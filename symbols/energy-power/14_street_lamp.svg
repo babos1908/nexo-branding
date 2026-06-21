@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="pictogram" viewBox="0 0 48.05 48.05" fill="currentColor">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1d1d1b;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M18.03,46.02h-4l-1-1v-13l1-1h4l1,1v13l-1,1ZM15.03,44.02h2v-11h-2v11Z" />
+  <polygon class="cls-1" points="17.03 31.02 15.03 31.02 15.03 11.02 15.13 10.58 16.13 8.58 16.71 8.08 19.71 7.08 20.34 8.97 17.73 9.84 17.03 11.26 17.03 31.02" />
+  <path class="cls-1" d="M26.03,10.02h-5l-.87-.51-1-1.8.47-1.4,9-4c3.04-1.02,5.4,1.1,6.24,2.36l-.4,1.46-8,3.8-.43.1ZM21.61,8.02h4.19l6.58-3.12c-.68-.58-1.75-1.15-3.04-.73l-7.91,3.52.18.33Z" />
+  <rect class="cls-1" x="26.94" y="14.53" width="3.16" height="2" transform="translate(4.77 37.67) rotate(-71.55)" />
+  <rect class="cls-1" x="33.03" y="12.72" width="2" height="3.61" transform="translate(-2.34 21.31) rotate(-33.69)" />
+  <rect class="cls-1" x="36.53" y="8.94" width="2" height="3.16" transform="translate(15.67 42.8) rotate(-71.57)" />
+  <rect class="cls-1" x="10.03" y="44.02" width="12" height="2" />
+  <path class="cls-1" d="M29.49,12.02c-1.78,0-3.44-.96-4.33-2.5l1.73-1c.54.93,1.53,1.5,2.6,1.5,1.65,0,3-1.35,3-3,0-.53-.14-1.05-.4-1.5l1.73-1c.44.76.67,1.62.67,2.5,0,2.76-2.24,5-5,5Z" />
+</svg>
