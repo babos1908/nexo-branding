@@ -3,7 +3,7 @@
 Classification of the **1415** ABB monochrome pictogram SVGs (source: `C:\Users\Admin\Downloads\media`)
 into SCADA/HMI-oriented categories for the NEXO Edge mimic-page symbol palette.
 
-- Machine-readable data: [`symbol-library.classification.json`](./symbol-library.classification.json) — one object per file `{file, category, name, relevance, keywords}`.
+- Machine-readable data: [`symbols.classification.json`](./symbols.classification.json) — one object per file `{file, category, name, relevance, keywords}`.
 - All source SVGs are `viewBox="0 0 48 48"`, root `fill="currentColor"`, `id="pictogram"` → recolor via CSS `color`.
 
 ---
