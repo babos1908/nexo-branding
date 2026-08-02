@@ -1,9 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve" fill="currentColor">
 <style type="text/css">
 	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:bevel;stroke-miterlimit:10;}
-	.st1{display:none;}
-	.st2{display:inline;}
-	.st3{fill:none;stroke:#00AEEF;stroke-width:5.000000e-02;stroke-miterlimit:10;}
 </style>
 <g id="pictogram">
 	<line class="st0" x1="18" y1="20" x2="20" y2="20" />
@@ -21,5 +18,4 @@
 	</g>
 </g>
 
-</g>
 </svg>

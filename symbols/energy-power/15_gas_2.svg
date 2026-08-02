@@ -1,9 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve" fill="currentColor">
-<style type="text/css">
-	.st0{display:none;}
-	.st1{display:inline;}
-	.st2{fill:none;stroke:#0FACE4;stroke-width:5.000000e-02;stroke-miterlimit:10;}
-</style>
+
 <g id="pictogram">
 	<g>
 		<path d="M28,46H18l-1-1V24l1-1h10l1,1v21L28,46z M19,44h8V25h-8V44z" />
@@ -15,5 +11,4 @@
 	</g>
 </g>
 
-</g>
 </svg>

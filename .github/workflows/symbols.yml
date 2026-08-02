@@ -1,0 +1,48 @@
+name: symbols
+
+# The symbol library is consumed as raw files by NEXO Hub and NEXO Edge. Both inject
+# it through [innerHTML], where HTML's lenient parsing hides malformed markup — so a
+# broken export can sit in the repo indefinitely and only surface somewhere strict
+# (<img src>, CSS mask, sprite build, design tool). This job is that strictness.
+
+on:
+  push:
+    paths: ['symbols/**', 'scripts/**', '.github/workflows/symbols.yml']
+  pull_request:
+    paths: ['symbols/**', 'scripts/**', '.github/workflows/symbols.yml']
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Unit-test the SVG cleaning primitives
+        run: node --test scripts/svg-tools.test.mjs
+
+      - name: Verify the committed symbol library
+        run: node scripts/verify-symbols.mjs
+
+      - name: Cross-check well-formedness with an independent XML parser
+        run: |
+          python3 - <<'PY'
+          import sys, glob
+          import xml.etree.ElementTree as ET
+          bad = []
+          files = sorted(glob.glob('symbols/**/*.svg', recursive=True))
+          for f in files:
+              try:
+                  ET.parse(f)
+              except ET.ParseError as e:
+                  bad.append(f"{f}: {e}")
+          print(f"parsed {len(files)} symbols with expat")
+          if bad:
+              print(f"FAILED — {len(bad)} not well-formed:")
+              for b in bad:
+                  print("  " + b)
+              sys.exit(1)
+          PY
